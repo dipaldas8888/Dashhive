@@ -29,9 +29,11 @@ const navItems = [
   },
 ];
 
-const Sidebar = ({ user, onLogout }) => {
+const Sidebar = ({ user, onLogout, onNavigate, className = "" }) => {
   return (
-    <aside className="flex h-full w-full max-w-72 flex-col border-r border-white/10 bg-slate-950 text-slate-100">
+    <aside
+      className={`flex h-full w-full max-w-72 flex-col border-r border-white/10 bg-slate-950 text-slate-100 ${className}`}
+    >
       <div className="border-b border-white/10 p-6">
         <div className="mb-6 flex items-center gap-3">
           <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-400 via-sky-500 to-indigo-600 shadow-lg shadow-cyan-500/20">
@@ -73,6 +75,7 @@ const Sidebar = ({ user, onLogout }) => {
             key={to}
             to={to}
             end={end}
+            onClick={onNavigate}
             className={({ isActive }) =>
               [
                 "group flex items-center justify-between rounded-2xl px-4 py-3 transition-all duration-200",
