@@ -1,5 +1,17 @@
 # Dashhive
 
+# Screenshots
+
+![Login Page](./frontend/src/assets/ss1.png)
+
+![Register Page](./frontend/src/assets/ss2.png)
+
+![Task Dashboard Page](./frontend/src/assets/ss3.png)
+
+![Leads Dashboard Page](./frontend/src/assets/ss4.png)
+
+![Dashboard Home Page](./frontend/src/assets/ss5.png)
+
 ## Folder Structure
 
 ```text
