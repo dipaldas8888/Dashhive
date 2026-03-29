@@ -12,6 +12,57 @@
 
 ![Dashboard Home Page](./frontend/src/assets/ss5.png)
 
+
+
+
+## Features
+
+### Frontend
+
+- Responsive login page
+- Responsive register page
+- JWT-based authentication flow
+- Protected dashboard routes
+- Dashboard sidebar with mobile hamburger menu
+- Dashboard pages for overview, leads, and tasks
+- Toast notifications for login and register status
+
+### Backend
+
+- User registration API
+- User login API
+- Password hashing with bcrypt
+- JWT token generation
+- Request validation with Zod
+- MongoDB user storage with Mongoose
+- Centralized error handling
+- REST API for authentication
+
+## Technology
+
+### Frontend
+
+- React
+- Vite
+- React Router DOM
+- Tailwind CSS
+- Axios
+- Lucide React
+- React Toastify
+
+### Backend
+
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+- bcryptjs
+- JSON Web Token
+- Zod
+- Morgan
+- CORS
+
+
 ## Setup
 
 ### 1. Install dependencies
@@ -117,49 +168,3 @@ Dashhive/
 - `POST /api/auth/login`
   Authenticates a user and returns JWT token with user details
 
-## Features
-
-### Frontend
-
-- Responsive login page
-- Responsive register page
-- JWT-based authentication flow
-- Protected dashboard routes
-- Dashboard sidebar with mobile hamburger menu
-- Dashboard pages for overview, leads, and tasks
-- Toast notifications for login and register status
-
-### Backend
-
-- User registration API
-- User login API
-- Password hashing with bcrypt
-- JWT token generation
-- Request validation with Zod
-- MongoDB user storage with Mongoose
-- Centralized error handling
-- REST API for authentication
-
-## Technology
-
-### Frontend
-
-- React
-- Vite
-- React Router DOM
-- Tailwind CSS
-- Axios
-- Lucide React
-- React Toastify
-
-### Backend
-
-- Node.js
-- Express
-- MongoDB
-- Mongoose
-- bcryptjs
-- JSON Web Token
-- Zod
-- Morgan
-- CORS
